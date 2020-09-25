@@ -27,7 +27,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  ORGANIC_PRODUCE.sort = ORGANIC 
+  ORGANIC_PRODUCE.sort = ORGANIC
   CONVENTIONAL_PRODUCE.sort = CONVENTIONAL
   produce_nest = [ORGANIC, CONVENTIONAL]
   # Using Array literal syntax only, build another nested array that
